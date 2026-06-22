@@ -15,7 +15,8 @@ A fully operational purple-team (red + blue) home lab for testing EDR/SIEM detec
 - Kibana 8.19.16 (visualization)
 - Elastic Defend (EDR)
 - Sysmon (Windows system monitoring)
-- Atomic Red Team (attack simulation)
+- Infection Monkey (Attack Simulation and Ransomware Execution)
+- Atomic Red Team (Built-in Attack simulation)
 - Nmap, Hydra, SMBMap (reconnaissance)
 
 ## Testing Summary
