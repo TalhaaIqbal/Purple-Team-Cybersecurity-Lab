@@ -4,8 +4,6 @@
 A fully operational purple-team (red + blue) home lab for testing EDR/SIEM detection capabilities against ransomware simulations and network-based attacks.
 
 ## Architecture
-[INSERT NETWORK DIAGRAM HERE]
-
 - **Attacker**: Kali Linux (192.168.100.144)
 - **Victim**: Windows 10 VM (192.168.100.146) with Sysmon + Elastic Defend
 - **SIEM**: Ubuntu Server (192.168.100.150) with Elasticsearch + Kibana + Fleet Server
@@ -25,11 +23,11 @@ A fully operational purple-team (red + blue) home lab for testing EDR/SIEM detec
 ✓ Account lockout triggered automatically by EDR
 ✓ Full pipeline: Sysmon → Agent → SIEM → Alerts
 
-## How to Reproduce
-[LINK TO lab-setup/ folder for detailed instructions]
-
-## Findings
-[LINK TO incident-report/ for detailed analysis]
+## Screenshots
+<img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/6ea373aa-3c8b-4333-ba7a-98ed4f65516c" />
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/299fee04-cbb7-4547-acf0-40a8f67887e9" />
+<img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/504e16e3-8833-4076-8361-a0fbc84d6ab6" />
+<img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/fdff6a92-88ba-4627-b650-95db12f4deaa" />
 
 ## Report
-[LINK TO Purple_Team_Lab_Report.docx for full documentation]
+[Purple_Team_Lab_Report.pdf](https://github.com/user-attachments/files/29241901/Purple_Team_Lab_Report.pdf)
